@@ -1,5 +1,6 @@
 .title {
     display: flex;
     margin-left: 15px;
+    padding-top: 5px;
     line-height: 4px
 }
