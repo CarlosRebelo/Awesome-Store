@@ -1,4 +1,5 @@
 .card {
+    display: inline-block;
     width: 339px;
     height: 375px;
     margin-top: 75px;
