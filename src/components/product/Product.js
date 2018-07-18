@@ -19,7 +19,7 @@ let Product = (props) => {
             </div>
             <div className='title'>
                 <p><b>Price Discount:&nbsp;</b></p>
-                <p>{props.description}</p>
+                <p>{props.discount}</p>
             </div>
         </div>
     )

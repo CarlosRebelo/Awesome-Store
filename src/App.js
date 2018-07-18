@@ -30,21 +30,23 @@ return ProductsTest
 }
 
 class App extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
 
     this.state = {
       products: []
-    }
+    };
   }
 
   render() {
     return (
       <div className="background">
        <Header />
-       <button onClick={awesomeButton.bind(this)}> Products </button>
-       {renderProducts(this.state.products)}
+      <div className='button'>
+        <button onClick={awesomeButton.bind(this)}> Products </button>
       </div>
+        {renderProducts(this.state.products)}
+           </div>
     );
   }
 }
