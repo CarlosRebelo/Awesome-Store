@@ -1,0 +1,14 @@
+.price {
+    display: flex;
+    margin-left: 15px;
+    padding-top: 5px;
+    line-height: 4px;
+    text-decoration: line-through
+}
+
+span:empty{
+    display: flex;
+    margin-left: 15px;
+    padding-top: 5px;
+    line-height: 4px;
+}

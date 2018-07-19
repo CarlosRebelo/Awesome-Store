@@ -8,7 +8,6 @@ var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = () => {
   if (xhttp.readyState === 4 && xhttp.status === 200) {  
     this.setState({ products: JSON.parse(xhttp.response) })
-      
   }
 }
 xhttp.open("GET", "http://localhost:4000/products", true );
@@ -46,7 +45,7 @@ class App extends Component {
         <button onClick={awesomeButton.bind(this)}> Products </button>
       </div>
         {renderProducts(this.state.products)}
-           </div>
+      </div>
     );
   }
 }

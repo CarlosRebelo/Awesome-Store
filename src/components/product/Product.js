@@ -2,6 +2,8 @@ import React from 'react'
 import '../Card.css'
 import './Title.css'
 import './Image.css'
+import './Price.css'
+import './Discount.css'
 
 let Product = (props) => {
     return(
@@ -13,11 +15,11 @@ let Product = (props) => {
                 <p><b>Title:&nbsp;</b></p>
                 <p>{props.description}</p>
             </div>
-            <div className='title'>    
+            <div className='price'>    
                 <p><b>Price:&nbsp;</b></p>
                 <p>{props.price}</p>
             </div>
-            <div className='title'>
+            <div className='discount'>
                 <p><b>Price Discount:&nbsp;</b></p>
                 <p>{props.discount}</p>
             </div>
